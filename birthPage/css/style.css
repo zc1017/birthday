@@ -320,27 +320,17 @@ p {
 
 
 :root {
-  --text-color: #646B8C;
-  --headline-color: #2B3044;
   --mail: #555B77;
   --mail-triangle: #494F69;
   --mail-background: #404660;
   --mail-shadow: #D1D6EE;
-  --paper: #fff;
   --paper-border: #D1D6EE;
-  --confirm-color: #fff;
-  --confirm-background: #275EFE;
-  --game-paddle: #404660;
-  --game-ball: #275EFE;
-  --controls-text: #646B8C;
-  --controls-icon: #646B8C;
-  --controls-background: #E1E6F9;
 }
 
 
 #unsubscribe .letter {
   width: 60%;
-  height: 72px;
+  height: 38%;
   margin: 26px auto;
   position: relative;
   -webkit-animation: letter 2s ease infinite;
@@ -352,7 +342,7 @@ p {
   left: 0;
   bottom: 0;
   width: 100%;
-  height: 48px;
+  height: 65%;
   z-index: 1;
 }
 #unsubscribe .letter:before {
