@@ -12,7 +12,9 @@ $card.on('click', function() {
 var $unsubscribe= $('#unsubscribe');
 $unsubscribe.on('click',function(event){
   event.stopPropagation();    //  阻止事件冒泡
-  $('.bday-card').css('visibility','visible');
+  //
+  $('.bday-card').slideDown(1500);
+  $('.bday-card').css('display','flex');
 })
 
 
