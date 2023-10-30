@@ -9,6 +9,12 @@ $card.on('click', function() {
   $clickMe.toggleClass('is-hidden');
 
 });
+var $unsubscribe= $('#unsubscribe');
+$unsubscribe.on('click',function(event){
+  event.stopPropagation();    //  阻止事件冒泡
+  $('.bday-card').css('visibility','visible');
+})
+
 
 
 function isMobile() {
