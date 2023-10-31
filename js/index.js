@@ -13,7 +13,7 @@ $(document).ready(function() {
   $unsubscribe.on('click',function(event){
     event.stopPropagation();    //  阻止事件冒泡
     //
-    $('.bday-card').slideDown(1500);
+    $('.bday-card').slideDown(800);
     $('.bday-card').css('display','flex');
   })
   } 
