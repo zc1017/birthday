@@ -15,9 +15,6 @@ body {
   overflow: hidden;
   user-select:none;
 }
-audio{
-  display: none;
-}
 .card {
   -webkit-perspective: 1500px;
   perspective: 1500px;
