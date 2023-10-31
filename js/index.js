@@ -1,6 +1,5 @@
-(function() {
+$(document).ready(function() {
   var sUserAgent = navigator.userAgent;
-  alert(sUserAgent)
   if (sUserAgent.indexOf('Android') > -1 || sUserAgent.indexOf('iPhone') > -1 || sUserAgent.indexOf('iPad') > -1 || sUserAgent.indexOf('iPod') > -1 || sUserAgent.indexOf('Symbian') > -1) {
     $('.zz').css('display','none');
     var $clickMe = $('.click-icon'),
